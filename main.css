@@ -4,22 +4,10 @@
 
 body {
   background-color: hsl(233, 47%, 7%);
-  margin: 0 auto;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  font-size: 0.9375rem;
 }
 
 .container {
-  border-style: solid 10px;
-  border-color: brown;
-  width: 90%;
   text-align: center;
   background-color: hsl(244, 38%, 16%);
   margin: 4rem 1rem;
@@ -27,12 +15,20 @@ body {
 
 .main-heading,
 .heading {
-  margin: 0;
+  padding-bottom: 0;
   color: hsl(0, 0%, 100%);
 }
 .main-paragraph,
 .paragraph {
   color: hsla(0, 0%, 100%, 0.75);
+}
+.paragraph {
+  text-transform: uppercase;
+}
+h3,
+p {
+  margin: 0;
+  padding: 0.3rem 0.3rem;
 }
 
 .img {
@@ -50,4 +46,18 @@ body {
 .col {
   display: flex;
   flex-direction: column;
+}
+.row {
+}
+.text {
+  padding: 0 4rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
