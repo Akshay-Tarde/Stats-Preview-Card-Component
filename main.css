@@ -5,6 +5,7 @@
 body {
   background-color: hsl(233, 47%, 7%);
   font-size: 0.9375rem;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -18,12 +19,14 @@ body {
   padding-bottom: 0;
   color: hsl(0, 0%, 100%);
 }
+
 .main-paragraph,
 .paragraph {
   color: hsla(0, 0%, 100%, 0.75);
 }
 .paragraph {
   text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
 }
 h3,
 p {
